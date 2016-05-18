@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Starbucks.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        // Create a new person
+        Person *me = [[Person alloc] init];
+        
+        // Create a new starbucks
+        Starbucks *starbucks = [[Starbucks alloc] init];
+        
+        // Set starbucks as the thing that makes me coffee
+        me.somethingThatMakesMeACoffee = starbucks;
+        
+        // Wake me up
+        [me wakeUp];
     }
     return 0;
 }
