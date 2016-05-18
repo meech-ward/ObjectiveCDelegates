@@ -29,9 +29,9 @@
 		22C651F21CEBFD71000544B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22C651F91CEBFD7D000544B7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		22C651FA1CEBFD7D000544B7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		22C651FC1CEBFDA6000544B7 /* CoffeeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeDelegate.h; sourceTree = "<group>"; };
 		22C651FD1CEC002D000544B7 /* Starbucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Starbucks.h; sourceTree = "<group>"; };
 		22C651FE1CEC002D000544B7 /* Starbucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Starbucks.m; sourceTree = "<group>"; };
+		22C652001CEC0941000544B7 /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				22C651F21CEBFD71000544B7 /* main.m */,
-				22C651FC1CEBFDA6000544B7 /* CoffeeDelegate.h */,
+				22C652001CEC0941000544B7 /* Protocol.h */,
 				22C651F91CEBFD7D000544B7 /* Person.h */,
 				22C651FA1CEBFD7D000544B7 /* Person.m */,
 				22C651FD1CEC002D000544B7 /* Starbucks.h */,

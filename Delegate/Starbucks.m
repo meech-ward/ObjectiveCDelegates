@@ -10,6 +10,11 @@
 
 @implementation Starbucks
 
+
+- (void)servePerson:(Person *)person {
+    person.somethingThatMakesMeACoffee = self;
+}
+
 // Beacause starbucks conforms to the <CoffeeDelegate>, you have made a promise to respond to anyone that says makeMeACoffee
 - (void)makeMeACoffee {
     // Make a coffee

@@ -8,7 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CoffeeDelegate.h"
+/// This is nothing more than a template that defines what a Coffee Delegate should do.
+@protocol CoffeeDelegate <NSObject>
+
+/// Any object that wants to be a coffee delegate will have to be able to makeMeACoffee.
+- (void)makeMeACoffee;
+
+@end
+
 
 @interface Person : NSObject
 
@@ -20,3 +27,5 @@
 - (void)wakeUp;
 
 @end
+
+

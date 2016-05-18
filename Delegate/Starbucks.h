@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CoffeeDelegate.h"
+#import "Person.h"
 
 @interface Starbucks : NSObject <CoffeeDelegate>
 // By adding <CoffeeDelegate> here, Starbucks is saying that it will allow anyone to tell it to makeMeACoffee
+
+- (void)servePerson:(Person *)person;
 
 @end

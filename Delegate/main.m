@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
         Starbucks *starbucks = [[Starbucks alloc] init];
         
         // Set starbucks as the thing that makes me coffee
-        me.somethingThatMakesMeACoffee = starbucks;
+        [starbucks servePerson:me];
         
         // Wake me up
         [me wakeUp];
